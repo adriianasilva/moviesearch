@@ -1,0 +1,16 @@
+
+h1{
+    font-family: 'Abel';
+    color: rgb(19, 212, 222);
+    
+}
+
+.title{
+    background-color: rgb(17,97,146);
+    display: block;
+    text-align: center;
+    line-height: 400%;
+    border-top: 10%;
+    
+    
+}
