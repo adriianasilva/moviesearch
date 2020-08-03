@@ -1,15 +1,16 @@
 p{
     font-family: 'Abel';
-    color: rgb(171, 190, 206)
+    color: rgb(143, 158, 170)
     
 }
 
 .search {
     background-color: rgb(235,235,235);
     display: block;
-    
-    line-height: 200%;
+    padding-left: 2%;
+    line-height: 250%;
     border-radius: 20px;
+    margin-top: 5%;
     margin-left:5%;
     margin-right:5%;
   }

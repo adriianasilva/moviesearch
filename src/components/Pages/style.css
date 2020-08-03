@@ -1,6 +1,9 @@
 .pagination {
+    flex-direction: row;
     display: flex;
-   margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+    
    margin-top: 10%;
    margin-bottom: 5%;
   }
