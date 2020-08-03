@@ -8,41 +8,43 @@
 .card{
     display:flex;
     flex-direction: row;
-    width: 90%; 
+    max-width: 90%; 
+    width: 90%;
+    height: 300px;
     margin:auto;
     margin-top: 5%;
-   
+    position: relative;
     background-color:  rgb(235,235,235);
-}
-
-.cardimage{
-    display:flex;
+    overflow: hidden;
 }
 
 .cardcontent{
-    
+    display: block;
+    position: relative;
+    width: 100%;
 }
 
-#titulo{    
+.cardcontent .box-titulo{
     color: rgb(11, 235, 247);
     font-family: 'Abel';
-    padding-left: 9%;
-   
-    
+    margin-top: -25px;
 }
 
-.titulo{
-    line-height: 400%;
+.box-titulo h1{
+    line-height: 2.8;
+    padding-left: 18%;
+}
+
+.box-subtitulo{
+    position: relative;
     display: block;
-   
 }
 
 .pontuacao{
-
-        border-radius: 50px;
-        border-color: rgb(11, 235, 247);
-        color:  rgb(11, 235, 247);
-        background-color: rgb(17,97,146);
+    border-radius: 50px;
+    border-color: rgb(11, 235, 247);
+    color:  rgb(11, 235, 247);
+    background-color: rgb(17,97,146);
 }
 
 .box{
@@ -66,41 +68,42 @@
     margin-top:-60px;
     z-index:4;
     margin-left: 15px;
-   
+}
+
+.content-text{
+    margin-left: 5%;
 }
 
 #data{
     position: relative;
     margin-top:-52px;
     z-index:4;
-    padding-left: 9%;
+    padding-left: 18%;
 }
 
-#tags{
+.tag-item{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 2px 5px;
+    margin: 0 5px;
     width: 42px;
     height: 25px;
     background-color: rgb(255, 255, 255);
     color: rgb(17,97,146);
-	border-radius: 38%;
+	border-radius: 20px;
 	border: 1px solid rgb(17,97,146);
-    line-height: 30px;
-   font-size: 15px;
-   font-family: 'Abel';
-   margin-bottom: 10px;
-   margin-top:10px;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-           display: flex;
-   -webkit-align-items: center;
-     -webkit-box-align: center;
-    -ms-flex-align: center;
-     align-items: center;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: 'Abel';
+    margin-bottom: 10px;
+    margin-top:10px;
+    align-items: center;
     justify-content: center;
     list-style-type: none;
- 
 }
 
-#description{
+#description p{
     font-family: 'Lato';
     color:rgb(54, 54, 54);
 }
@@ -118,4 +121,5 @@ h2{
 h3{
     color:  rgb(135, 151, 165);
     font-family: 'Lato';
+    font-weight: normal;
 }

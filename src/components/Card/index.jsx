@@ -1,24 +1,38 @@
 import React from 'react'; 
 import './style.css'; 
+import ImageTemp from '../../images/postertest.jpg';
+
+
 const Card = () => { 
     return( 
     <>
-            <div class="card">
-            <div class="cardimage">
-            <img src="/home/adriana/projetos/moviesearch/moviesearch/src/components/Card/postertest.jpg" alt="cartaz" width="90" height="120"></img>
-          </div>
-           
-            <div class="cardcontent">
-                <div class="titulo"><h1 id="titulo">Mussum Ipsum</h1></div>
-                <div class="box">75%</div>
-                <div id="data"><h3>27/04/1997</h3></div>
-                <div id="description">Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Quem manda na minha terra sou euzis! Si num tem leite então bota uma pinga aí cumpadi! Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. 
-                </div>
-                <div id="tags">tags</div>
-                
-
+        <div className="card">
+            <div className="cardimage">
+                <img src={ImageTemp} alt="cartaz" width="200px" height="100%"></img>
             </div>
-            </div> 
+            <div className="cardcontent">
+                <div className="box-titulo">
+                    <h1 id="titulo">Title poster</h1>
+                </div>
+
+                <div className="box">75%</div>
+                
+                <div id="data">
+                    <h3>27/04/1997</h3>
+                </div>
+
+                <div className="content-text">
+                    <div id="description">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Quem manda na minha terra sou euzis! Si num tem leite então bota uma pinga aí cumpadi! Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. </p>
+                    </div>
+                    <div id="tags">
+                        <span className="tag-item"> tag 1</span>
+                        <span className="tag-item"> tag 2</span>
+                        <span className="tag-item"> tag 3</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
              
         </>
     );
