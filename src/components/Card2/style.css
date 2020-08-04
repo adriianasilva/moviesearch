@@ -1,6 +1,6 @@
-.card-content2{
+.card2{
     
-        display:block;
+        display:inline;
         flex-direction: row;
         max-width: 90%; 
         width: 90%;
@@ -10,19 +10,11 @@
         position: relative;
         background-color:  rgb(242,242,242);
         overflow: hidden;
-         
-    
 }
 
-img{
-    max-height: 600px;
-    max-width: 400px;
-    display:block;
-    margin-top: -460px;
-    float: right;
-    flex-direction: row-reverse;
+.cardcontent2 .cardimage2{
+    margin-left: 5%;
 }
-
 
 #titulo2{
     background-color:rgb(230,230,230);
@@ -45,10 +37,10 @@ hr{
 }
 
 .box-titulo2 h1{
-width:100%;
-margin-top: 50px;
-line-height: 2.0;
-padding-left: 5%;
+    width:100%;
+    margin-top: 50px;
+    line-height: 2.0;
+    padding-left: 5%;
 }
 
 .box-titulo2 .data2{

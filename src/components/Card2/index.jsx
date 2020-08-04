@@ -16,7 +16,7 @@ const Card2 = () => {
                 </div>
                 
         <div className="cardcontent2">  
-                <div className="content-text2">
+              
                     <div id="subtitulo">
                         Sinopse
                     </div>
@@ -71,9 +71,9 @@ const Card2 = () => {
 
                     <div className="box2">75%</div>
                 <div className="cardimage2"> 
-                <img src={ImageTemp} alt="cartaz" witdh="100%" height="100%"></img>
+                <img src={ImageTemp} alt="cartaz" witdh="200px" height="400px"></img>
             </div>
-                </div>
+             
                 
                 
             </div>
