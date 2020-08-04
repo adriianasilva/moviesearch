@@ -5,7 +5,8 @@ const Searchbar = () => {
     return( 
         <div class="search">
         <input type="text" id="txtBusca" placeholder="Busque um filme por nome, ano ou gênero"/>
-        <input id="btnBusca" type="submit" value=""/>
+        <button id="btnBusca" type="submit" value=""hidden/>
+        
         </div> 
     );
  } 

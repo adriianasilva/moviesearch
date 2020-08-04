@@ -2,9 +2,10 @@
     font-family: 'Abel';
     color: rgb(143, 158, 170);  
     font-size: 15px; 
-    width:260px;
+    width:90%;
     height:23px;
     background-color: rgb(235,235,235);
+    outline: none;
     border: none;
 }
 

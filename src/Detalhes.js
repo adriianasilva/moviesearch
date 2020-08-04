@@ -8,9 +8,9 @@ function Detalhes() {
   return (
     <>
     Detalhes de filme:
-    <Title/>
-    <Card2/>
-    <Trailer/>
+        <Title/>
+        <Card2/>
+        <Trailer/>
     
     </>
    

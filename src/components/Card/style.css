@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-grow:1;
-  }
+}
 
 .card{
     display:flex;
@@ -17,6 +17,7 @@
     background-color:  rgb(235,235,235);
     overflow: hidden;
     cursor: pointer;
+    
 }
 
 .cardcontent{
@@ -80,6 +81,7 @@
     margin-top:-52px;
     z-index:4;
     padding-left: 12%;
+  
 }
 
 .tag-item{
@@ -107,6 +109,7 @@
 #description p{
     font-family: 'Lato';
     color:rgb(54, 54, 54);
+    
 }
 
 h1{

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Card = () => { 
     return( 
     <>
-    <Link to="/Detalhes"></Link>
+    <Link to="/Detalhes">
         <div className="card">
         
             <div className="cardimage"> 
@@ -37,6 +37,7 @@ const Card = () => {
             </div>
            
         </div> 
+        </Link>
              
         </>
     );
