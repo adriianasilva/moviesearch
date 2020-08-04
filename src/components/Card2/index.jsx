@@ -1,29 +1,20 @@
 import React from 'react'; 
 import './style.css'; 
 import ImageTemp from '../../images/postertest.jpg';
-import { Link } from 'react-router-dom';
+
 
 
 const Card2 = () => { 
     return( 
     <>
-    <Link to="/Detalhes"></Link>
         <div className="card">
-        
-            <div className="cardimage"> 
-                <img src={ImageTemp} alt="cartaz" width="200px" height="100%"></img>
-            </div>
-            <div className="cardcontent">
-                <div className="box-titulo">
+        <div className="box-titulo">
                     <h1 id="titulo">Title poster</h1>
-                </div>
-
-                <div className="box">75%</div>
-                
-                <div id="data">
+                    <div className="data">
                     <h3>27/04/1997</h3>
                 </div>
-
+                </div>
+        <div className="cardcontent">  
                 <div className="content-text">
                     <div id="description">
                         <p>Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Quem manda na minha terra sou euzis! Si num tem leite então bota uma pinga aí cumpadi! Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. </p>
@@ -34,10 +25,15 @@ const Card2 = () => {
                         <span className="tag-item"> tag 3</span>
                     </div>
                 </div>
+                
+                <div className="box">75%</div>
+                <div className="cardimage"> 
+                <img src={ImageTemp} alt="cartaz" width="200px" height="100%"></img>
             </div>
+            </div>
+            
            
         </div> 
-             
         </>
     );
  } 
