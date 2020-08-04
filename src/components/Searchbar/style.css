@@ -1,7 +1,15 @@
-p{
+#txtBusca{
     font-family: 'Abel';
-    color: rgb(143, 158, 170)
-    
+    color: rgb(143, 158, 170);  
+    font-size: 15px; 
+    width:260px;
+    height:23px;
+    background-color: rgb(235,235,235);
+    border: none;
+}
+
+#btnbusca{
+   display:none;
 }
 
 .search {

@@ -18,7 +18,7 @@
   
   .pagination a.active {
     border-radius: 50px;
-    border: 3px solid rgb(19, 212, 222);
+    border: 4px solid rgb(19, 212, 222);
     color: rgb(19,212,222);
     background-color: rgb(17,97,146);
     

@@ -4,7 +4,7 @@ import ImageTemp from '../../images/postertest.jpg';
 import { Link } from 'react-router-dom';
 
 
-const Card = () => { 
+const Card2 = () => { 
     return( 
     <>
     <Link to="/Detalhes"></Link>
@@ -41,4 +41,4 @@ const Card = () => {
         </>
     );
  } 
-export default Card;
+export default Card2;

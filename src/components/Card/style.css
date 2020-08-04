@@ -10,12 +10,13 @@
     flex-direction: row;
     max-width: 90%; 
     width: 90%;
-    height: 300px;
+    height: auto; 
     margin:auto;
     margin-top: 5%;
     position: relative;
     background-color:  rgb(235,235,235);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .cardcontent{
@@ -32,7 +33,7 @@
 
 .box-titulo h1{
     line-height: 2.8;
-    padding-left: 18%;
+    padding-left: 12%;
 }
 
 .box-subtitulo{
@@ -78,7 +79,7 @@
     position: relative;
     margin-top:-52px;
     z-index:4;
-    padding-left: 18%;
+    padding-left: 12%;
 }
 
 .tag-item{
